@@ -40,7 +40,7 @@ install:
   - conan user # It creates the conan data directory.
 
 before_test:
-  - ps: Install-Product node 8 $env:nodejs_arch
+  - ps: Install-Product node 10 $env:nodejs_arch
   - ps: npm install node-gyp -g
   - cmd: node-gyp install
 
