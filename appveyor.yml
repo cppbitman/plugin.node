@@ -1,4 +1,4 @@
-build: false
+build: off
 image: Visual Studio 2015
 environment:
     PYTHON: "C:\\Python27"
