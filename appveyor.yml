@@ -9,7 +9,7 @@ environment:
     CONAN_USERNAME: cppbitman
     CONAN_LOGIN_USERNAME: cppbitman
     CONAN_PASSWORD:
-      secure: 6fec31ace38133c4dc3f3b7beadd4a061c764eb6
+      secure: ci6Axz7cmHI9ekeHAynxfLiEdBcKX/lOEAv1UPmU8W61WrwZlFzLfnIE3IVT+8rr
     
 
 
