@@ -11,7 +11,8 @@ from conans.client.loader_parse import load_conanfile_class
 __dir__ =os.path.dirname(os.path.abspath(__file__))
 
 PACKAGE_NAME   = 'plugin.node'
-CONAN_USERNAME = 'pluginx'
+#CONAN_USERNAME = 'pluginx'
+CONAN_USERNAME = 'cppbitman'
 
 def get_build_number():
     '''
@@ -49,7 +50,8 @@ def build():
         CONAN_UPLOAD_ONLY_WHEN_STABLE = True        
     else:
         version = '%s.%d'%(version,n)
-        CONAN_CHANNEL = 'testing'
+        #CONAN_CHANNEL = 'testing'
+        CONAN_CHANNEL = 'nodeplugin'
         CONAN_UPLOAD_ONLY_WHEN_STABLE = False
         CONAN_STABLE_CHANNEL = 'testing'
         update_version(version)
