@@ -7,7 +7,7 @@ environment:
 
 #    CONAN_REFERENCE: pluginx/0.3.1
     CONAN_USERNAME: cppbitman
-    #CONAN_LOGIN_USERNAME: mingyiz
+    CONAN_LOGIN_USERNAME: cppbitman
     CONAN_PASSWORD:
       secure: eDOJ+Jpb6ISo5/ABRTjnqQ==
     
