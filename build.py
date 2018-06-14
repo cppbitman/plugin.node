@@ -60,6 +60,8 @@ def build():
 
     #CONAN_UPLOAD  = 'https://api.bintray.com/conan/%s/%s'%(CONAN_USERNAME,CONAN_CHANNEL)
     CONAN_UPLOAD  = 'https://api.bintray.com/conan/cppbitman/nodeplugin'
+    
+    print(CONAN_CHANNEL, CONAN_UPLOAD_ONLY_WHEN_STABLE, CONAN_UPLOAD, CONAN_USERNAME, CONAN_STABLE_CHANNEL)
 
     builder = ConanMultiPackager(
         channel=CONAN_CHANNEL,
