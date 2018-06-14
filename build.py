@@ -53,7 +53,8 @@ def build():
         #CONAN_CHANNEL = 'testing'
         CONAN_CHANNEL = 'nodeplugin'
         CONAN_UPLOAD_ONLY_WHEN_STABLE = False
-        CONAN_STABLE_CHANNEL = 'testing'
+        #CONAN_STABLE_CHANNEL = 'testing'
+        CONAN_STABLE_CHANNEL = 'nodeplugin'
         update_version(version)
 
 
